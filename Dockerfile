@@ -17,7 +17,5 @@ COPY py.spec.js /app/
 RUN npm install
 
 # Build TS into JS to run via Node
-RUN npm run build
-
 # Run Node index.js file
 CMD [ "npm", "start" ]
