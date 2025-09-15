@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx playwright install && npx playwright test"
+    "start": "npx playwright install --with-deps && npx playwright test"
   },
   "author": "",
   "license": "ISC"
