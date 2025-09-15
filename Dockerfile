@@ -1,6 +1,6 @@
 # Build Environment: Node + Playwright
 FROM node:latest
-FROM mcr.microsoft.com/playwright:focal
+FROM mcr.microsoft.com/playwright:v1.55.0-focal 
 
 # Env
 WORKDIR /app
