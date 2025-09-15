@@ -1,7 +1,7 @@
 const { test, expect, firefox, chromium } = require('@playwright/test');
 
 test('should open Myntra URL with extended headers in Firefox', async () => {
-    const browser = await firefox.launch({ headless: true });
+    const browser = await firefox.launch({ headless: false });
     const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
         '(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36';
 
@@ -32,3 +32,4 @@ test('should open Myntra URL with extended headers in Firefox', async () => {
 
     await browser.close();
 });
+
