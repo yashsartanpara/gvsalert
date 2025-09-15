@@ -11,9 +11,7 @@ EXPOSE 3000
 
 # Copy all app files into Docker Work directory
 COPY package*.json /app/
-COPY index.ts /app/
-COPY src/ /app/src/
-COPY tsconfig.json /app/
+COPY py.spec.js /app/
 
 # Install Deps
 RUN npm install
