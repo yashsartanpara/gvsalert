@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  },
+  "name": "golddeal-gvs",
+  "version": "1.0.0",
+  "description": "1. Clone this repository. 2. Load this directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked). Open Google Chrome. In the address bar, go to: chrome://extensions/ Turn Developer mode ON (toggle in the top right corner).",
+  "main": "background.js",
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx playwright test"
+  },
+  "author": "",
+  "license": "ISC"
+}
